@@ -48,6 +48,7 @@ DTD (Document Type Definition) - это формальное описание с
 
 ## Пример DTD для определения структуры и содержания веб-страницы:
 
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -63,6 +64,7 @@ DTD (Document Type Definition) - это формальное описание с
 <a href="http://www.example.com">Ссылка на другую страницу</a>
 </body>
 </html>
+```
 
 # Из чего состоит HTML-документ?
 
