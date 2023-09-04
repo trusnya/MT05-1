@@ -20,18 +20,19 @@ XPath'ы на первой странице ("1. Оформление") для:
    - Кнопка "Да" под полем "Имеется неузаконенная перепланировка / реконструкция объекта в части капитальной конструкции и инженерных систем":`//*[@id="mat-button-toggle-22-button"]`
    - Кнопка "Нет" под полем "Имеется неузаконенная перепланировка / реконструкция объекта в части капитальной конструкции и инженерных систем":`//*[@id="mat-button-toggle-23-button"]`
    - Кнопка "Добавить объект":`//app-insured[@class='ng-star-inserted']//span[@class='mat-button-wrapper']`
-   - Кнопка "Удалить объект":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[3]/div/app-insured/div[15]/div[1]/button[2]`
+   - Кнопка "Удалить объект":`//span[@class='mat-button-wrapper'][contains(text(),'1')]`
    - Кнопка "Добавить территорию":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[3]/div/div/button`
-   - Кнопка "Рассчитать":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[11]/button`
-   - Кнопка "Применить" к франшизе:`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[12]/div[1]/div[2]/button/span[1]`
-   - Кнопка "Применить" к промокоду:`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[12]/div[2]/div[2]/button`
-   - Кнопка "Назад":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[14]/button[1]/span[1]`
-   - Кнопка "Оформить полис":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[14]/button[2]`
+   - Кнопка "Удалить территорию":`//span[@class='mat-button-wrapper'][contains(text(),'1')]`
+   - Кнопка "Рассчитать":`//button[@class='mat-focus-indicator mat-flat-button mat-button-base mat-accent']`
+   - Кнопка "Применить" к франшизе:`//div[@class='contact-form__item contact-form__contact']//div[1]//div[2]//button[1]`
+   - Кнопка "Применить" к промокоду:`//div[@class='contact-form__item contact-form__contact']//div[2]//div[2]//button[1]`
+   - Кнопка "Назад":`//button[@class='mat-focus-indicator stroke-btn mat-stroked-button mat-button-base']`
+   - Кнопка "Оформить полис":`//button[@class='mat-focus-indicator mat-flat-button mat-button-base mat-accent mat-button-disabled']`
    - Кнопка "Гражданин РФ" после выбора кнопки "Индивидуальный предприниматель":`//*[@id="mat-button-toggle-32-button"]`
    - Кнопка "Иностранный гражданин" после выбора кнопки "Индивидуальный предприниматель":`//*[@id="mat-button-toggle-33-button"]/span`
    - Кнопка "Женский" после выбора кнопки "Индивидуальный предприниматель" и чекбокса "Заполнить вручную":`//*[@id="mat-button-toggle-35-button"]`
    - Кнопка "Мужской" после выбора кнопки "Индивидуальный предприниматель" и чекбокса "Заполнить вручную" :`//*[@id="mat-button-toggle-34-button"]`
-   - Кнопка "Добавить залоговый договор" с отмеченным чекбоксом "Залог Сбербанка":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[5]/div/button/span[1]`
+   - Кнопка "Добавить залоговый договор" с отмеченным чекбоксом "Залог Сбербанка":`//body/app-root/app-policy-form[@class='ng-star-inserted']/div[@class='policy-form container-gt-md']/div[@class='policy-form__body']/app-policy-contact-form[@class='ng-star-inserted']/form[@class='ng-invalid ng-dirty ng-touched']/div[@class='contact-form']/div[5]/div[1]/button[1]`
    - Кнопка "Добавить кредитный договор" с отмеченным чекбоксом "Залог Сбербанка":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[6]/div/button`    
 
 
@@ -113,7 +114,7 @@ XPath'ы на первой странице ("1. Оформление") для:
 
 
 5. Логотипа "СБЕР СТРАХОВАНИЕ":
-   - Логотип "СБЕР СТРАХОВАНИЕ": `//*[@id="root"]/div/div/div[1]/div/a/img`    
+   - Логотип "СБЕР СТРАХОВАНИЕ": `//div[@class='header__logo']`    
 
 
 
