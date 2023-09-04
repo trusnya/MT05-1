@@ -19,7 +19,8 @@ XPath'ы на первой странице ("1. Оформление") для:
    - Кнопка "Нет" под полем "Является рынком (совокупность отдельно стоящих или примыкающих друг к другу строений, расположенных на одной территории); отдельностоящей баней/сауной/бассейном; памятником истории/культуры/архитектуры":`//*[@id="mat-button-toggle-21-button"]`
    - Кнопка "Да" под полем "Имеется неузаконенная перепланировка / реконструкция объекта в части капитальной конструкции и инженерных систем":`//*[@id="mat-button-toggle-22-button"]`
    - Кнопка "Нет" под полем "Имеется неузаконенная перепланировка / реконструкция объекта в части капитальной конструкции и инженерных систем":`//*[@id="mat-button-toggle-23-button"]`
-   - Кнопка "Добавить объект":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[3]/div/app-insured/div[15]/div/button/span[1]`
+   - Кнопка "Добавить объект":`//app-insured[@class='ng-star-inserted']//span[@class='mat-button-wrapper']`
+   - Кнопка "Удалить объект":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[3]/div/app-insured/div[15]/div[1]/button[2]`
    - Кнопка "Добавить территорию":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[3]/div/div/button`
    - Кнопка "Рассчитать":`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[11]/button`
    - Кнопка "Применить" к франшизе:`/html/body/app-root/app-policy-form/div/div/app-policy-contact-form/form/div/div[12]/div[1]/div[2]/button/span[1]`
